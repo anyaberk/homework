@@ -11,7 +11,7 @@ algoritm = [ "C4.5" , "k - means" , "Метод опорных векторов"
 # 2 % "k - means"
 # и т.д.
 
-f = open("algoritm.csv", "w+t")
+f = open("algoritm.csv", "w+t",  encoding='utf-8')
 j=1
 for i in algoritm:
     f.write(f"{j} % {i}\n")

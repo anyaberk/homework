@@ -37,6 +37,6 @@ f_template =f"""
 print(f_template)
 
 
-f=open("index.html","w")
+f=open("index.html","w", encoding='utf-8')
 f.write(f_template)
 f.close()
