@@ -1,0 +1,9 @@
+[general]
+name=KPT Geocode
+description=KPT 2GIS API Geocode
+about=About this minimal plugin
+version=1.0
+qgisMinimumVersion=3.0
+author=Test
+email=test@gmail.com
+repository=URL to the code repository
